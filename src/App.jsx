@@ -4,7 +4,7 @@ import { HeaderIcons } from './components/HeaderIcons';
 
 import { LogoIntro } from './components/LogoIntro';
 
-import bg from '/images/bg3.jpg'; 
+import bg from './assets/images/homepage-bg.jpg'; 
 
 function App() {
   const bgstyle = {

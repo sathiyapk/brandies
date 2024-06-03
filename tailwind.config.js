@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 const plugin = require("tailwindcss/plugin")
-const Myclass = plugin (function({ addUtilities }){
+const Productflip = plugin (function({ addUtilities }){
     addUtilities ({
         ".my-rotate-y-180" : {
             transform: "rotateY(180deg)",
+            // transform:" translate(-50%, -50%) scale(.5)",
+          // transform: "scale(2)",
+          // transition: "transform 20s cubic-bezier(0,.99,0,.99) 0s",
         },
         ".preserve-3d": {
           transformStyle: "preserve-3d",
@@ -27,6 +30,7 @@ export default {
       fontFamily :{        
         Arka: ["Arka","cursive"], 
         Trojan: ["TrajanRegular","cursive"],
+        Civilite:["Civilite", "cursive"],
       },
       colors: {
         'ambition-text-color': '#ffe400',
@@ -51,10 +55,12 @@ export default {
         'xo-bg':"url(./src/assets/images/xo-bg.jpg)",
         'bordueax-bg':"url(./src/assets/images/bordueax-bg.jpg)",
         'saint-emilion-bg':"url(./src/assets/images/saint-emilion-bg.jpg)",
+        // Who we are
+        'whoweare-bg':"url(./src/assets/images/whoweare-bg.jpg)",
       },
     },
   },
-  plugins: [Myclass],
+  plugins: [Productflip],
   
 }
 

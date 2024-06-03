@@ -47,7 +47,7 @@ export const Products = () => {
                                     </div>
                                     <div className='grid grid-cols-1  md:grid-cols-[30%_auto] gap-4 pt-10'>
                                     <img className='w-60  h-auto place-items-center'  src='../src/assets/images/marie-img.png' />
-                                    <p className=' font-Trojan   w-full  text-sm font-medium  text-ambition-text-color  text-justify pt-10'>   
+                                    <p className=' font-Trojan   w-full  text-sm font-medium   text-ambition-text-color  text-justify pt-10'>   
                                     <span className='font-Arka text-4xl'>Marie-Antoinette</span>     <br></br>                                
                                       Mustrian princess born on November 2, 1755 in Vienna, and wife of King Louis Sixteen, she occupies a
                                        symbolic place in the history of Versailles. As Dauphine of France, she is said to love theater, 

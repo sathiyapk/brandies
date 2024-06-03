@@ -95,7 +95,7 @@ video{
     
     font-size: clamp(15px, 3.3vw, 200px);
 	font-family: Civilite;
-	color: #000;
+	color: #ffe400;
 	font-weight: 500;
 	line-height: .8;
     text-align: center;
@@ -107,8 +107,8 @@ video{
 	font-size: 1.2rem;
 	text-align: center;
 	justify-content: center;
-	color: #3a0f02;
-	font-weight:bold;
+	color: #ffe400;
+	font-weight:400;
 	letter-spacing: -0.5px;
 	
   }

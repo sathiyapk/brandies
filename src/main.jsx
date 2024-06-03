@@ -4,6 +4,8 @@ import App from './App.jsx'
 import { Products } from './pages/Products.jsx'
 import { Cepages } from './pages/Cepages.jsx'
 import { Ambition } from './pages/Ambition.jsx'
+import { Whoweare } from './pages/Whoweare.jsx'
+import { Contact } from './pages/Contact.jsx'
 
 import './index.css'
 import {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
   path: "ambition",
   element:  <Ambition/> 
+},
+{
+  path: "whoweare",
+  element:  <Whoweare/> 
+},
+{
+  path: "contact",
+  element:  <Contact/> 
 },
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
